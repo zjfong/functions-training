@@ -48,7 +48,7 @@ function repeatPhrase(phrase, n) {
 	// TODO: Place your code here
 }
 
-repeatPhrase ("Hello", 5);
+repeatPhrase("Hello", 5);
 // displays 
 // Hello
 // Hello
