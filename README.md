@@ -25,17 +25,18 @@ For some of the problems, you'll have to use functions or other variables suppli
 
 ## Function Definitions!
 
-###1.  Build your own concatentation
+
+### 1.  Build your own concatentation
 Display a new string that is the combination of two arguments passed into the function 
 
 **Example: `dog` and `house` will display `doghouse`**
 
 ```javascript
-function combineWords( word1, word2 ) {
+function combineWords(word1, word2) {
 	// TODO: Place your code here
 }
 
-combineWords( 'dog', 'house' );
+combineWords('dog', 'house');
 // displays 'doghouse'
 ```
 
@@ -43,11 +44,11 @@ combineWords( 'dog', 'house' );
 Display an argument phrase to the console n times
 
 ```javascript
-function repeatPhrase( phrase, n ) {
+function repeatPhrase(phrase, n) {
 	// TODO: Place your code here
 }
 
-repeatPhrase ( "Hello", 5);
+repeatPhrase ("Hello", 5);
 // displays 
 // Hello
 // Hello
@@ -57,13 +58,13 @@ repeatPhrase ( "Hello", 5);
 ```
 
 ### 3.  Build your own Power function
-Display number <sup>power</sup> without using built-in Math functions
+Display number <sup>power</sup> *without* using built-in `Math` functions
 
 **Example**:   
 **4<sup>5</sup> = 4 * 4 * 4 * 4 * 4 = 1024**
 
 ```javascript
-function toTheNthPower( number, power ) {
+function toTheNthPower(number, power) {
 	// TODO: Place your code here		
 }
 
@@ -76,7 +77,7 @@ Display the area of a circle given the radius
 [background information](http://www.mathgoodies.com/lessons/vol2/circle_area.html)
 
 ```javascript
-function areaOfACircle( radius ) {
+function areaOfACircle(radius) {
 	// TODO: Place your code here
 }
 
@@ -90,11 +91,11 @@ Display c given a and b
 [background information](https://en.wikipedia.org/wiki/Pythagorean_theorem)
 
 ```javascript
-function pythagoreanTheorem( a, b ) {
+function pythagoreanTheorem(a, b) {
 	// TODO: Place your code here
 }
 
-pythagoreanTheorem( 3, 4 );
+pythagoreanTheorem(3, 4);
 // should display 5;
 ```
 
@@ -104,7 +105,7 @@ Return a boolean value whether or not X can be divided by Y without any remainde
 *Hint: Explore the world of Modulus operators!*
 
 ```javascript
-function isXEvenlyDivisibleByY( x, y ) {
+function isXEvenlyDivisibleByY(x, y) {
 	// TODO: Place your code here
 }
 
@@ -119,7 +120,7 @@ Count the number of occurence of vowels in a word.
 Vowels are `a`, `e`, `i`, `o`, `u`, and `y`
 
 ```javascript
-function countVowels( word ) {
+function countVowels(word) {
 	// TODO: Place your code here
 }
 
