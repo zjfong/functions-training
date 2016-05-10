@@ -26,7 +26,7 @@ For some of the problems, you'll have to use functions or other variables suppli
 ## Function Definitions!
 
 
-### 1.  Build your own concatentation
+### 1.  Build your own concatenation
 Return a new string that is the combination of two arguments passed into the function
 
 **Example: `dog` and `house` will display `doghouse`**
@@ -121,7 +121,7 @@ console.log(result);
 
 
 ### 7.  Vowel Count:
-Return the number of occurences of vowels in a word.
+Return the number of occurrences of vowels in a word.
 Vowels are `a`, `e`, `i`, `o`, `u`, and `y`
 
 ```javascript
