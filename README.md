@@ -1,10 +1,10 @@
 ## Exercises - Javascript Functions
 
-Fork this repository to your GitHub account, then clone your GitHub copy onto your computer. 
+Fork this repository to your GitHub account, then clone your GitHub copy onto your computer.
 
-You'll be filling in a bunch of empty function definitions. Type each function definition into the snippet, then add the rest of the code to make the function work. 
+You'll be filling in a bunch of empty function definitions. Type each function definition into the snippet, then add the rest of the code to make the function work.
 
-After you implement a function successfully in your snippet, copy it over into the `functions.js` file.  Unless a different behavior is specified, have the function log the answer to the console AND return it. 
+After you implement a function successfully in your snippet, copy it over into the `functions.js` file.  Unless a different behavior is specified, have the function log the answer to the console AND return it.
 
 When class ends, push your work to GitHub and open a pull request to the class functions-exercises repo!
 
@@ -14,10 +14,10 @@ For some of the problems, you'll have to use functions or other variables suppli
 ```javascript
 	var absoluteValue = Math.abs(-4);
 	// evaluates to 4
-	
+
 	var fourSquared = Math.pow(4, 2);
 	// evaluates to 16
-	
+
 	var roundedToNearestInteger = Math.round(1.22343);
 	// evaluates to 1
 ```
@@ -27,7 +27,7 @@ For some of the problems, you'll have to use functions or other variables suppli
 
 
 ### 1.  Build your own concatentation
-Return a new string that is the combination of two arguments passed into the function 
+Return a new string that is the combination of two arguments passed into the function
 
 **Example: `dog` and `house` will display `doghouse`**
 
@@ -36,7 +36,8 @@ function combineWords(word1, word2) {
 	// TODO: Place your code here
 }
 
-combineWords('dog', 'house');
+var result = combineWords('dog', 'house');
+console.log(result);
 // displays 'doghouse'
 ```
 
@@ -49,7 +50,7 @@ function repeatPhrase(phrase, n) {
 }
 
 repeatPhrase("Hello", 5);
-// displays 
+// displays
 // Hello
 // Hello
 // Hello
@@ -68,7 +69,8 @@ function toTheNthPower(number, power) {
 	// TODO: Place your code here		
 }
 
-toTheNthPower(4, 5);
+var result = toTheNthPower(4, 5);
+console.log(result);
 // displays 1024
 ```
 
@@ -81,7 +83,8 @@ function areaOfACircle(radius) {
 	// TODO: Place your code here
 }
 
-areaOfACircle(2);
+var result = areaOfACircle(2);
+console.log(result);
 // displays approximately 12.57
 ```
 
@@ -95,7 +98,8 @@ function pythagoreanTheorem(a, b) {
 	// TODO: Place your code here
 }
 
-pythagoreanTheorem(3, 4);
+var result = pythagoreanTheorem(3, 4);
+conosle.log(result);
 // should display 5;
 ```
 
@@ -109,7 +113,8 @@ function isXEvenlyDivisibleByY(x, y) {
 	// TODO: Place your code here
 }
 
-isXEvenlyDivisibleByY(99, 3);
+var result = isXEvenlyDivisibleByY(99, 3);
+console.log(result);
 // displays true
 ```
 
@@ -124,7 +129,8 @@ function countVowels(word) {
 	// TODO: Place your code here
 }
 
-countVowels("stealing");
+var result = countVowels("stealing");
+console.log(result);
 // displays 3
 ```
 *Challenge: Can you alter the code to count both upper case AND lower case?*
@@ -157,7 +163,7 @@ printTriangle(3);
 // ***
 ```
 
-### 9. Stretch Challenge: Can you alter the printTriangle function to create a Pyramid? 
+### 9. Stretch Challenge: Can you alter the printTriangle function to create a Pyramid?
 **Example:  printPyramid(10);**
 
 ```javascript
@@ -168,7 +174,7 @@ printTriangle(3);
        * * * * *
       * * * * * *
      * * * * * * *
-    * * * * * * * * 
+    * * * * * * * *
    * * * * * * * * *
   * * * * * * * * * *
 ```
@@ -180,4 +186,3 @@ function printPyramid(length) {
 	// TODO: Place your code here
 }
 ```
-

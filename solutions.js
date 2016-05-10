@@ -5,7 +5,6 @@
 // Example: combineWords('dog', 'house') => 'doghouse'
 function combineWords(word1, word2) {
 	var result = word1+word2;
-	console.log(result);
 	return result;
 }
 //combineWords("dog", "house");
@@ -28,7 +27,6 @@ function toTheNthPower(number, power) {
 	for(var i = 0; i < power; i++) {
 		result *= number;
 	}
-	console.log(result);
 	return result;
 }
 //toTheNthPower(4, 4);
@@ -38,9 +36,7 @@ function toTheNthPower(number, power) {
 // calculate the area of a circle (pi * r^2)
 function areaOfACircle(radius) {
 	var r = radius * radius;
-	console.log(r);
 	var area = Math.PI * r;
-	console.log(area);
 	return area;
 }
 //areaOfACircle(2);
@@ -53,7 +49,6 @@ function pythagoreanTheorem(x1, y1, x2, y2) {
 	var b = Math.abs(y2 - x2);
 	var c = (a * a) + (b * b);
 	c = Math.sqrt(c);
-	console.log(c);
 	return c;
 }
 //pythagoreanTheorem(0,3,4,0);
@@ -62,7 +57,6 @@ function pythagoreanTheorem(x1, y1, x2, y2) {
 // check if x is evenly divisible by y
 function isXEvenlyDivisibleByY(x, y) {
 	var result = x % y === 0;
-	console.log(result);
 	return result;
 }
 //isXEvenlyDivisibleByY(98, 3);
@@ -79,7 +73,6 @@ function countVowels(word) {
 			count++;
 		}
 	}
-	console.log(count);
 	return count;
 }
 //countVowels("AEIOUY");
@@ -139,5 +132,3 @@ function printPyramid(length) {
 	}
 }
 //printPyramid(10);
-
-
