@@ -1,6 +1,16 @@
-## Exercises - Javascript Functions
+# Training - Javascript Functions
 
-Fork this repository to your GitHub account, then clone your GitHub copy onto your computer.
+Fork this repository to your GitHub account, then clone your GitHub copy onto your computer. Write the functions assigned below in the file `functions.js`. Use snippets to run and observe the results of your code.
+
+## Setup
+
+1. Summon the Chrome Developer Console (Option + Command + I)
+1. Navigate to the `Sources` tab in the Chrome Developer Console.
+2. Click on the `Snippets` tab within the Sources display.
+3. Right-click and choose `New` to create a new Snippets file.
+4. Name the Snippets File `myFunctions`.
+4. Write or paste code into the editing window and press `cmd` + `return` to run the code.
+
 
 You'll be filling in a bunch of empty function definitions. Type each function definition into the snippet, then add the rest of the code to make the function work.
 
