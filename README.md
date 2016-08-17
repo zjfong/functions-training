@@ -4,19 +4,18 @@ Fork this repository to your GitHub account, then clone your GitHub copy onto yo
 
 ## Setup
 
-1. Summon the Chrome Developer Console (Option + Command + I)
+Here's how to use a snippet:
+
+1. Open the Chrome Developer Console (Option + Command + I)
 1. Navigate to the `Sources` tab in the Chrome Developer Console.
 2. Click on the `Snippets` tab within the Sources display.
 3. Right-click and choose `New` to create a new Snippets file.
 4. Name the Snippets File `myFunctions`.
 4. Write or paste code into the editing window and press `cmd` + `return` to run the code.
 
-
-You'll be filling in a bunch of empty function definitions. Type each function definition into the snippet, then add the rest of the code to make the function work.
+You'll be filling in a bunch of empty function definitions. Type each blank function definition into the snippet, then **you write** the rest of the code to make the function work.
 
 After you implement a function successfully in your snippet, copy it over into the `functions.js` file.  Unless a different behavior is specified, have the function log the answer to the console AND return it.
-
-When class ends, push your work to GitHub and open a pull request to the class functions-exercises repo!
 
 For some of the problems, you'll have to use functions or other variables supplied by JavaScript's built-in `Math` object.  [Here is the documentation on using the `Math` object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math).
 
@@ -32,6 +31,14 @@ For some of the problems, you'll have to use functions or other variables suppli
 	// evaluates to 1
 ```
 
+
+## Deliverable
+
+When you wrap up work, edit this README to include your name, a link to the original repository, and a 3-5 sentence reflection on completing this assignment. Example:
+
+> I was a able to complete all of the mathematical functions, but the string related functions were difficult for me. I spoke with the evening TA and she helped me solve the ASCII triangle function. I'm still feeling iffy on writing my own loops.
+
+Push your updates to GitHub and add a link to the repo to the "My Work" section of your website!
 
 ## Function Definitions!
 
@@ -72,7 +79,7 @@ repeatPhrase("Hello", 5);
 Return number <sup>power</sup> *without* using built-in `Math` functions
 
 **Example**:   
-**4<sup>5</sup> = 4 * 4 * 4 * 4 * 4 = 1024**
+**4<sup>5</sup> = 4 \* 4 \* 4 \* 4 \* 4 = 1024**
 
 ```javascript
 function toTheNthPower(number, power) {
