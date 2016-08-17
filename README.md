@@ -17,6 +17,8 @@ You'll be filling in a bunch of empty function definitions. Type each blank func
 
 After you implement a function successfully in your snippet, copy it over into the `functions.js` file.  Unless a different behavior is specified, have the function log the answer to the console AND return it.
 
+Notice there is a solutions.js file. Make a full attempt at finishing these on your own and refer to the solutions only when you are finished or unbearably stuck. Also recognize that the solutions are only **one** solution and that there are many good ways to solve these problems.
+
 For some of the problems, you'll have to use functions or other variables supplied by JavaScript's built-in `Math` object.  [Here is the documentation on using the `Math` object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math).
 
 **Example Usage of `Math`**
@@ -152,9 +154,25 @@ console.log(result);
 ```
 *Challenge: Can you alter the code to count both upper case AND lower case?*
 
+### 8. Does the array contain "wdi"
+Given an array, return `true` if it contains the string "wdi" and `false` if it does not contain that string.
 
+Example:
 
-### 8. Build an ASCII Triangle!
+```javascript
+findWdi([9,'Bart Simpson', true, 'wdi']) // returns true
+findWdi(['a','b','c']) // returns false
+```
+
+```javascript
+
+	function findWdi(arr){
+		// TODO: Place your code here
+	}
+
+```
+
+### 9. Build an ASCII Triangle!
 Display a simple triangle with asterisks
 
 **Example:   
@@ -180,7 +198,7 @@ printTriangle(3);
 // ***
 ```
 
-### 9. Stretch Challenge: Can you alter the printTriangle function to create a Pyramid?
+### 10. Stretch Challenge: Can you alter the printTriangle function to create a Pyramid?
 **Example:  printPyramid(10);**
 
 ```javascript

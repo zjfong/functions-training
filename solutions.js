@@ -77,8 +77,16 @@ function countVowels(word) {
 }
 //countVowels("AEIOUY");
 
-
-
+// Given an array, return true if it contains the string
+// "wdi" and false if it does not contain that string.
+function findWdi(arr){
+	for (var i = 0; i < arr.length; i++) {
+		if(arr[i] === 'wdi'){
+			return true;
+		}
+	}
+	return false;
+}
 
 
 // print a simple triangle with asterisks (ASCII Art!!!)
